@@ -24,6 +24,10 @@ public class AddressBook {
         collection.remove(obj);
     }
 
+    private void newMethod(){
+
+    }
+
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Ronaldo", "Carleton", "613");
         AddressBook addressBook = new AddressBook();
